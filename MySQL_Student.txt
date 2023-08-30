@@ -1,0 +1,8 @@
+USE entries;
+
+CREATE TABLE Student(
+    id INT PRIMARY KEY,
+    ranking INT NOT NULL,
+    name VARCHAR(50) NOT NULL,
+    score INT NOT NULL
+);
